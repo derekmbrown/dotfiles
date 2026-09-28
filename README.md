@@ -4,6 +4,7 @@ My configuration files.
 
 | Directory | Description |
 |---|---|
+| `agents/` | Agent skills and instructions |
 | `brew/` | Homebrew setup |
 | `git/` | Git configuration |
 | `iterm2/` | iTerm2 preferences |
