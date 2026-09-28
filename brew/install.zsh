@@ -36,7 +36,7 @@ for tap in "${taps[@]}"; do
     echo "Tap already installed: $tap"
   else
     brew tap "$tap"
-    brew trust --tap cloudflare/cloudflare
+    brew trust --tap "$tag"
   fi
 done
 
