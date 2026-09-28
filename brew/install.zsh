@@ -25,6 +25,7 @@ taps=(
   nikitabobko/tap
   osx-cross/arm
   osx-cross/avr
+  pilat/devbox
   qmk/qmk
   warrensbox/tap
 )
@@ -52,6 +53,7 @@ packages=(
   fzf
   gastown
   gh
+  git
   git-delta
   glow
   go
@@ -65,6 +67,7 @@ packages=(
   neovim
   node@22
   nvm
+  opentofu
   p7zip
   perl
   pet
@@ -75,6 +78,8 @@ packages=(
   sevenzip
   speedtest-cli
   symfony-cli
+  sqlite
+  tfswitch
   tmux
   tree
   wifi-password
@@ -122,7 +127,6 @@ casks=(
   slack
   spotify
   stats
-  tfswitch
   visual-studio-code
   vlc
   wave
