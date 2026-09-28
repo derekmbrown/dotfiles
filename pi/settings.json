@@ -1,0 +1,21 @@
+{
+  "lastChangelogVersion": "0.87.1",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "medium",
+  "theme": "dracula",
+  "packages": [
+    "npm:@tmustier/pi-usage-extension",
+    "npm:pi-subagents-lite",
+    "npm:pi-web-access",
+    "/Users/derek/.nvm/versions/node/v22.23.1/lib/node_modules/@blackbelt-technology/pi-agent-dashboard/node_modules/@blackbelt-technology/pi-dashboard-extension",
+    "npm:pi-context-usage",
+    "npm:pi-delete-session",
+    "npm:@aliou/pi-guardrails",
+    "git:https://github.com/hasit/pi-community-themes",
+    "npm:@mohndoe/pi-atlas",
+    "npm:@plannotator/pi-extension",
+    "git:github.com/harms-haus/pi-worktrees"
+  ],
+  "enableSkillCommands": true
+}
