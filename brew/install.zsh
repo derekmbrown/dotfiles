@@ -21,6 +21,7 @@ taps=(
   cloudflare/cloudflare
   hashicorp/tap
   jesseduffield/lazydocker
+  mostlygeek/llama-swap
   ngrok/ngrok
   nikitabobko/tap
   osx-cross/arm
@@ -35,6 +36,7 @@ for tap in "${taps[@]}"; do
     echo "Tap already installed: $tap"
   else
     brew tap "$tap"
+    brew trust --tap cloudflare/cloudflare
   fi
 done
 
@@ -62,11 +64,13 @@ packages=(
   htop
   httpie
   jq
+  llama-swap
   minikube
   ncdu
   neovim
   node@22
   nvm
+  ollama
   opentofu
   p7zip
   perl
@@ -101,6 +105,7 @@ echo "Installing brew casks..."
 casks=(
   aerospace
   bitwarden
+  codex
   claude-code
   cmux
   cursor
