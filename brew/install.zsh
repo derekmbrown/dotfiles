@@ -3,6 +3,7 @@ set -euo pipefail
 
 export NONINTERACTIVE=1
 export HOMEBREW_NO_ENV_HINTS=1
+export HOMEBREW_NO_CONFIRM=1
 
 echo "Checking Homebrew..."
 if ! command -v brew >/dev/null 2>&1; then
@@ -43,6 +44,7 @@ packages=(
   awslogs
   bat
   cloudflared
+  colima
   libtiff
   composer
   ffmpeg
@@ -86,7 +88,7 @@ for package in "${packages[@]}"; do
   if brew list --formula "$package" >/dev/null 2>&1; then
     echo "Package already installed: $package"
   else
-    brew install "$package"
+    brew install --yes "$package"
   fi
 done
 
@@ -100,6 +102,8 @@ casks=(
   discord
   docker-desktop
   firefox
+  font-cascadia-mono
+  font-fira-code
   ghostty
   google-chrome
   grandperspective
@@ -129,7 +133,7 @@ for cask in "${casks[@]}"; do
   if brew list --cask "$cask" >/dev/null 2>&1; then
     echo "Cask already installed: $cask"
   else
-    brew install --cask "$cask"
+    brew install --cask --yes "$cask"
   fi
 done
 
