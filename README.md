@@ -1,3 +1,11 @@
-# dotfiles
+# [dotfiles](https://github.com/derekmbrown/dotfiles)
 
-Personal dotfiles for my development environment.
+My configuration files.
+
+| Directory | Description |
+|---|---|
+| `brew/` | Homebrew setup |
+| `git/` | Git configuration |
+| `tmux/` | tmux configuration |
+| `vscode/` | VS Code settings and keybindings |
+| `zsh/` | zsh and oh-my-zsh configuration |
