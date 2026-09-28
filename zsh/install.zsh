@@ -15,8 +15,10 @@ else
   echo "oh-my-zsh already installed."
 fi
 
+echo "Installing zsh configuration..."
 link "$DOTFILES_DIR/zshrc" "$HOME/.zshrc"
 link "$DOTFILES_DIR/aliases.zsh" "$HOME/.zsh/aliases.zsh"
 link "$DOTFILES_DIR/export.zsh" "$HOME/.zsh/export.zsh"
 link "$DOTFILES_DIR/functions.zsh" "$HOME/.zsh/functions.zsh"
 link "$DOTFILES_DIR/misc.zsh" "$HOME/.zsh/misc.zsh"
+echo "Zsh configuration installed."

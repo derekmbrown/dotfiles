@@ -5,6 +5,6 @@ DOTFILES_DIR="${0:A:h}"
 
 source "$DOTFILES_DIR/../zsh/functions.zsh"
 
-echo "Installing agent skills..."
+echo "Installing agents..."
 link "$DOTFILES_DIR/skills" "$HOME/.agents/skills"
-echo "Agent skills installed."
+echo "Agents installed."
