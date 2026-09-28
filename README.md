@@ -6,6 +6,7 @@ My configuration files.
 |---|---|
 | `brew/` | Homebrew setup |
 | `git/` | Git configuration |
+| `iterm2/` | iTerm2 preferences |
 | `pi/` | Pi coding agent configuration |
 | `tmux/` | tmux configuration |
 | `vscode/` | VS Code settings and keybindings |
