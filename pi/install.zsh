@@ -8,4 +8,5 @@ source "$DOTFILES_DIR/../zsh/functions.zsh"
 
 echo "Installing Pi configuration..."
 link "$DOTFILES_DIR/settings.json" "$PI_AGENT_DIR/settings.json"
+link "$DOTFILES_DIR/extensions" "$PI_AGENT_DIR/extensions"
 echo "Pi configuration installed."
