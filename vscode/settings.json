@@ -1,0 +1,115 @@
+{
+  // workbench settings
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "GitHub Dark Default",
+  // editor settings
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": false,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSave": false,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "expand",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.lineHeight": 1.5,
+  "editor.guides.indentation": false,
+  // breadcrumb settings
+  "breadcrumbs.enabled": true,
+  // php settings
+  "php.validate.enable": false,
+  "php.suggest.basic": false,
+  // debug settings
+  "debug.inlineValues": "on",
+  // file settings
+  "files.trimFinalNewlines": true,
+  // explorer settings
+  "explorer.compactFolders": false,
+  // git settings
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.postCommitCommand": "push",
+  "git.mergeEditor": false,
+  // window settings
+  "window.title": "${activeEditorShort}${separator}${activeEditorLong}",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  // security settings
+  "security.workspace.trust.untrustedFiles": "open",
+  // search settings
+  "search.useIgnoreFiles": false,
+  // terminal settings
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.confirmOnKill": "never",
+  "redhat.telemetry.enabled": false,
+  // yml settings
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow": "/.github/workflows/**/*.yml"
+  },
+  // task settings
+  "task.problemMatchers.neverPrompt": true,
+  // powermode settings
+  "powermode.enabled": false,
+  "powermode.shake.enabled": false,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.presets": "flames",
+  "hediet.vscode-drawio.resizeImages": null,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.inlayHints.enabled": "off",
+  // Diff Editor settings
+  "diffEditor.wordWrap": "off",
+"diffEditor.ignoreTrimWhitespace": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "docker.extension.enableComposeLanguageServer": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Only generate a commit message of the file that has changed. Do not explain what has changed in the file."
+    }
+  ],
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "atlascode.rovodev.showEntitlementNotifications": false,
+  "chat.tips.enabled": false,
+  "chat.tools.global.autoApprove": false,
+  "diffEditor.maxComputationTime": 0,
+  "chat.tools.urls.autoApprove": {
+    "https://code.visualstudio.com": true,
+    "https://github.com/microsoft/vscode/wiki/*": true,
+    "https://registry.terraform.io": true,
+    "https://docs.aws.amazon.com": {
+      "approveRequest": true
+    }
+  },
+  "workbench.editor.wrapTabs": true,
+  "claudeCode.preferredLocation": "panel",
+"terminal.integrated.mouseWheelScrollSensitivity": 3,
+"explorer.confirmDelete": false,
+"extensions.ignoreRecommendations": true,
+"chat.viewSessions.orientation": "stacked"
+}

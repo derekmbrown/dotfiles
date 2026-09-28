@@ -1,0 +1,45 @@
+[
+  {
+    "key": "shift+cmd+a",
+    "command": "extension.multiCommand.execute",
+    "args": {
+      "sequence": [
+        "workbench.scm.focus",
+        "list.focusFirst",
+        "list.select"
+      ]
+    },
+    "when": "editorTextFocus"
+  },
+  // {
+  //   "key": "shift+cmd+z",
+  //   "command": "extension.multiCommand.execute",
+  //   "args": {
+  //     "sequence": [
+  //       "workbench.action.terminal.focus",
+  //     ]
+  //   },
+    // "when": "editorTextFocus"
+  // },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    // "key": "ctrl+shift+D",
+    "key": "cmd+'",
+    "command": "workbench.action.debug.start"
+},
+{
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+        "text": "\u001b\r"
+    },
+    "when": "terminalFocus"
+},
+]
