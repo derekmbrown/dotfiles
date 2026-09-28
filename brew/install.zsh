@@ -32,12 +32,8 @@ taps=(
 )
 
 for tap in "${taps[@]}"; do
-  if brew tap | grep -qx "$tap"; then
-    echo "Tap already installed: $tap"
-  else
-    brew tap "$tap"
-    brew trust --tap "$tag"
-  fi
+  brew tap "$tap"
+  brew trust --tap "$tap"
 done
 
 echo "Installing brew packages..."
@@ -94,11 +90,7 @@ packages=(
 )
 
 for package in "${packages[@]}"; do
-  if brew list --formula "$package" >/dev/null 2>&1; then
-    echo "Package already installed: $package"
-  else
-    brew install --yes "$package"
-  fi
+  brew install --yes "$package"
 done
 
 echo "Installing brew casks..."
@@ -124,7 +116,7 @@ casks=(
   itsycal
   karabiner-elements
   maccy
-  macdown
+  # macdown # issue with macos golden gate
   meld
   ngrok
   nimbalyst
@@ -140,11 +132,7 @@ casks=(
 )
 
 for cask in "${casks[@]}"; do
-  if brew list --cask "$cask" >/dev/null 2>&1; then
-    echo "Cask already installed: $cask"
-  else
-    brew install --cask --yes "$cask"
-  fi
+  brew install --cask --yes "$cask"
 done
 
 echo "Cleaning up..."
