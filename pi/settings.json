@@ -4,6 +4,9 @@
   "defaultModel": "gpt-5.5",
   "defaultThinkingLevel": "medium",
   "theme": "dracula",
+  "prompts": [
+    "~/.agents/prompts"
+  ],
   "packages": [
     "npm:@tmustier/pi-usage-extension",
     "npm:pi-subagents-lite",

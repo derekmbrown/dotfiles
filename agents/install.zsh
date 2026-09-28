@@ -7,4 +7,5 @@ source "$DOTFILES_DIR/../zsh/functions.zsh"
 
 echo "Installing agents..."
 link "$DOTFILES_DIR/skills" "$HOME/.agents/skills"
+link "$DOTFILES_DIR/prompts" "$HOME/.agents/prompts"
 echo "Agents installed."

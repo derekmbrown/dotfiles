@@ -1,6 +1,6 @@
 ---
 name: dotfiles-doctor
-description: Use when checking this dotfiles repo for broken symlinks, shell syntax errors, install script issues, or unsafe committed secrets.
+description: Validates the dotfiles repos.
 ---
 
 # Dotfiles Doctor
