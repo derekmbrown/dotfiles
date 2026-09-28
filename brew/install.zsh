@@ -53,6 +53,7 @@ packages=(
   gh
   git
   git-delta
+  git-filter-repo
   glow
   go
   gum
@@ -114,9 +115,9 @@ casks=(
   imazing
   iterm2
   itsycal
-  karabiner-elements
+  # karabiner-elements
   maccy
-  # macdown # issue with macos golden gate
+  # macdown
   meld
   ngrok
   nimbalyst
