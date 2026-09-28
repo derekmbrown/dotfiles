@@ -125,6 +125,7 @@ casks=(
   karabiner-elements
   maccy
   macdown
+  meld
   ngrok
   nimbalyst
   rectangle
