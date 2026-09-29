@@ -1,8 +1,8 @@
 [user]
-	name = Derek Brown
+    name = Derek Brown
 
 [init]
     defaultBranch = main
 
 [include]
-      path = ~/.gitconfig.local
+    path = ~/.gitconfig.local
