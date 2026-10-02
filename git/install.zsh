@@ -6,6 +6,7 @@ DOTFILES_DIR="${0:A:h}"
 source "$DOTFILES_DIR/../zsh/functions.zsh"
 
 echo "Installing git configuration..."
+
 link "$DOTFILES_DIR/gitconfig" "$HOME/.gitconfig"
 
 if [[ ! -f "$HOME/.gitconfig.local" ]]; then

@@ -4,7 +4,6 @@ set -euo pipefail
 DOTFILES_DIR="${0:A:h}"
 
 installers=(
-  "$DOTFILES_DIR/agents/install.zsh"
   "$DOTFILES_DIR/brew/install.zsh"
   "$DOTFILES_DIR/git/install.zsh"
   "$DOTFILES_DIR/pi/install.zsh"

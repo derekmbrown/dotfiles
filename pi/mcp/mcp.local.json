@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "time": {
+      "command": "uvx",
+      "args": ["mcp-server-time"],
+      "description": "Current time and timezone conversion"
+    }
+  }
+}

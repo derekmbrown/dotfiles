@@ -83,6 +83,7 @@ packages=(
   tfswitch
   tmux
   tree
+  uv
   wifi-password
   yt-dlp
   z

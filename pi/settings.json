@@ -1,17 +1,14 @@
 {
   "lastChangelogVersion": "1.0.0",
-  "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.5",
+  "defaultProvider": "anthropic",
+  "defaultModel": "claude-sonnet-5-5",
   "defaultThinkingLevel": "medium",
   "theme": "dracula",
-  "prompts": [
-    "~/.agents/prompts"
-  ],
   "packages": [
     "npm:@tmustier/pi-usage-extension",
     "npm:pi-subagents-lite",
     "npm:pi-web-access",
-    "/Users/derek/.nvm/versions/node/v22.23.1/lib/node_modules/@blackbelt-technology/pi-agent-dashboard/node_modules/@blackbelt-technology/pi-dashboard-extension",
+    "npm:@blackbelt-technology/pi-dashboard-extension",
     "npm:pi-context-usage",
     "npm:pi-delete-session",
     "npm:@aliou/pi-guardrails",
