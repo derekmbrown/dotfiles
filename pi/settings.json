@@ -15,7 +15,8 @@
     "git:https://github.com/hasit/pi-community-themes",
     "npm:@mohndoe/pi-atlas",
     "npm:@plannotator/pi-extension",
-    "git:github.com/harms-haus/pi-worktrees"
+    "git:github.com/harms-haus/pi-worktrees",
+    "npm:@gotgenes/pi-anthropic-auth"
   ],
   "enableSkillCommands": true
 }
