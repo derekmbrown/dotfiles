@@ -10,7 +10,7 @@ echo "Installing Pi configuration..."
 
 mcp_files=("$DOTFILES_DIR/mcp"/*.json(N))
 if (( ${#mcp_files} > 0 )); then
-  jq -s '{ autoEnableCodemode: false, mcpServers: (map(.mcpServers // {}) | add) }' \
+  jq -s '{ autoEnableCodemode: true, mcpServers: (map(.mcpServers // {}) | add) }' \
     "${mcp_files[@]}" > "$DOTFILES_DIR/mcp.json"
 fi
 

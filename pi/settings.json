@@ -8,7 +8,6 @@
     "npm:@tmustier/pi-usage-extension",
     "npm:pi-subagents-lite",
     "npm:pi-web-access",
-    "npm:@blackbelt-technology/pi-dashboard-extension",
     "npm:pi-context-usage",
     "npm:pi-delete-session",
     "npm:@aliou/pi-guardrails",
@@ -18,5 +17,8 @@
     "git:github.com/harms-haus/pi-worktrees",
     "npm:@gotgenes/pi-anthropic-auth"
   ],
+  "warnings": {
+    "anthropicExtraUsage": false
+  },
   "enableSkillCommands": true
 }
