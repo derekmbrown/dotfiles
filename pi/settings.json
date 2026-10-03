@@ -20,5 +20,6 @@
   "warnings": {
     "anthropicExtraUsage": false
   },
-  "enableSkillCommands": true
+  "enableSkillCommands": true,
+  "tuiMode": "regular"
 }
