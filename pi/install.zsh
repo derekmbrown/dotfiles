@@ -23,10 +23,17 @@ link "$DOTFILES_DIR/mcp.json" "$PI_AGENT_DIR/mcp.json"
 skill_files=("$DOTFILES_DIR"/skills/*/SKILL.md(N))
 prompt_files=("$DOTFILES_DIR"/prompts/*.md(N))
 extension_files=("$DOTFILES_DIR"/extensions/*.ts(N))
+package_count=$(jq '(.packages // []) | length' "$DOTFILES_DIR/settings.json")
 
-echo "  Built mcp.json from ${#mcp_files} file(s)."
-echo "  Added skills/ with ${#skill_files} skill(s)."
-echo "  Added prompts/ with ${#prompt_files} prompt(s)."
-echo "  Added extensions/ with ${#extension_files} extension(s)."
+mcp_server_count=0
+if [[ -f "$DOTFILES_DIR/mcp.json" ]]; then
+  mcp_server_count=$(jq '.mcpServers | length' "$DOTFILES_DIR/mcp.json")
+fi
+
+echo "  Added ${#skill_files} skill(s)."
+echo "  Added ${#prompt_files} prompt(s)."
+echo "  Added $mcp_server_count mcp server(s)."
+echo "  Added ${#extension_files} extension(s)."
+echo "  Added $package_count package(s)."
 
 echo "Pi configuration installed."

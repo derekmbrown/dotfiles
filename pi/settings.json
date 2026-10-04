@@ -15,7 +15,8 @@
     "npm:@mohndoe/pi-atlas",
     "npm:@plannotator/pi-extension",
     "git:github.com/harms-haus/pi-worktrees",
-    "npm:@gotgenes/pi-anthropic-auth"
+    "npm:@gotgenes/pi-anthropic-auth",
+    "npm:pi-prompt-meter"
   ],
   "warnings": {
     "anthropicExtraUsage": false
