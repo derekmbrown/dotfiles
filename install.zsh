@@ -7,6 +7,7 @@ installers=(
   "$DOTFILES_DIR/brew/install.zsh"
   "$DOTFILES_DIR/git/install.zsh"
   "$DOTFILES_DIR/pi/install.zsh"
+  "$DOTFILES_DIR/vscode/install.zsh"
   "$DOTFILES_DIR/zsh/install.zsh"
 )
 

@@ -94,7 +94,6 @@
   ],
   "workbench.editor.enablePreview": false,
   "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "atlascode.rovodev.showEntitlementNotifications": false,
   "chat.tips.enabled": false,
   "chat.tools.global.autoApprove": false,
   "diffEditor.maxComputationTime": 0,
@@ -107,9 +106,8 @@
     }
   },
   "workbench.editor.wrapTabs": true,
-  "claudeCode.preferredLocation": "panel",
-"terminal.integrated.mouseWheelScrollSensitivity": 3,
-"explorer.confirmDelete": false,
-"extensions.ignoreRecommendations": true,
-"chat.viewSessions.orientation": "stacked"
+  "terminal.integrated.mouseWheelScrollSensitivity": 3,
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true,
+  "chat.viewSessions.orientation": "stacked"
 }

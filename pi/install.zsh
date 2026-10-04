@@ -2,7 +2,7 @@
 set -euo pipefail
 
 DOTFILES_DIR="${0:A:h}"
-PI_AGENT_DIR="${PI_CODING_AGENT_DIR:-$HOME/.pi/agent}"
+PI_AGENT_DIR="${HOME}/.pi/agent"
 
 source "$DOTFILES_DIR/../zsh/functions.zsh"
 
