@@ -5,18 +5,18 @@ export NONINTERACTIVE=1
 export HOMEBREW_NO_ENV_HINTS=1
 export HOMEBREW_NO_CONFIRM=1
 
-echo "Checking Homebrew..."
+echo "  Checking Homebrew..."
 if ! command -v brew >/dev/null 2>&1; then
-  echo "Homebrew not found. Installing Homebrew..."
+  echo "  Homebrew not found. Installing Homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
-  echo "Homebrew already installed."
+  echo "  Homebrew already installed."
 fi
 
-echo "Updating Homebrew..."
+echo "  Updating Homebrew..."
 brew update
 
-echo "Installing brew taps..."
+echo "  Installing brew taps..."
 taps=(
   cloudflare/cloudflare
   hashicorp/tap
@@ -36,7 +36,7 @@ for tap in "${taps[@]}"; do
   brew trust --tap "$tap"
 done
 
-echo "Installing brew packages..."
+echo "  Installing brew packages..."
 packages=(
   python@3.14
   awscli
@@ -95,7 +95,7 @@ for package in "${packages[@]}"; do
   brew install --yes "$package"
 done
 
-echo "Installing brew casks..."
+echo "  Installing brew casks..."
 casks=(
   aerospace
   bitwarden
@@ -137,7 +137,7 @@ for cask in "${casks[@]}"; do
   brew install --cask --yes "$cask"
 done
 
-echo "Cleaning up..."
+echo "  Cleaning up..."
 brew cleanup
 
-echo "Homebrew setup complete."
+echo "  Homebrew setup complete."

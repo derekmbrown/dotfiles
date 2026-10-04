@@ -6,9 +6,9 @@ VSCODE_USER_DIR="${HOME}/Library/Application Support/Code/User"
 
 source "$DOTFILES_DIR/../zsh/functions.zsh"
 
-echo "Installing VS Code configuration..."
+echo "  Installing VSCode configuration..."
 
 link "$DOTFILES_DIR/settings.json" "$VSCODE_USER_DIR/settings.json"
 link "$DOTFILES_DIR/keybindings.json" "$VSCODE_USER_DIR/keybindings.json"
 
-echo "VS Code configuration installed."
+echo "  VSCode configuration installed."

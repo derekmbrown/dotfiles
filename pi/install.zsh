@@ -6,7 +6,7 @@ PI_AGENT_DIR="${HOME}/.pi/agent"
 
 source "$DOTFILES_DIR/../zsh/functions.zsh"
 
-echo "Installing Pi configuration..."
+echo "  Installing Pi configuration..."
 
 mcp_files=("$DOTFILES_DIR/mcp"/*.json(N))
 if (( ${#mcp_files} > 0 )); then
@@ -30,10 +30,10 @@ if [[ -f "$DOTFILES_DIR/mcp.json" ]]; then
   mcp_server_count=$(jq '.mcpServers | length' "$DOTFILES_DIR/mcp.json")
 fi
 
-echo "  Added ${#skill_files} skill(s)."
-echo "  Added ${#prompt_files} prompt(s)."
-echo "  Added $mcp_server_count mcp server(s)."
-echo "  Added ${#extension_files} extension(s)."
-echo "  Added $package_count package(s)."
+echo "    Added ${#skill_files} skill(s)."
+echo "    Added ${#prompt_files} prompt(s)."
+echo "    Added $mcp_server_count mcp server(s)."
+echo "    Added ${#extension_files} extension(s)."
+echo "    Added $package_count package(s)."
 
-echo "Pi configuration installed."
+echo "  Pi configuration installed."
