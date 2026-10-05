@@ -1,3 +1,6 @@
+#!/usr/bin/env zsh
+set -euo pipefail
+
 link() {
   local src="$1"
   local dest="$2"
