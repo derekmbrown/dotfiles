@@ -16,7 +16,8 @@
     "npm:@plannotator/pi-extension",
     "git:github.com/harms-haus/pi-worktrees",
     "npm:@gotgenes/pi-anthropic-auth",
-    "npm:pi-prompt-meter"
+    "npm:pi-prompt-meter",
+    "npm:context-mode"
   ],
   "warnings": {
     "anthropicExtraUsage": false
