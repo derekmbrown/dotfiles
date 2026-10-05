@@ -8,6 +8,7 @@ plugins=(git
 z
 zsh-autosuggestions
 zsh-syntax-highlighting
+zsh-shift-select
 )
 
 source $ZSH/oh-my-zsh.sh
