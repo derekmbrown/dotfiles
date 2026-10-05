@@ -15,4 +15,4 @@ source $HOME/.zsh/aliases.zsh
 source $HOME/.zsh/export.zsh
 source $HOME/.zsh/functions.zsh
 source $HOME/.zsh/misc.zsh
-source $HOME/.zsh/work.zsh
+[[ -f $HOME/.zsh/work.zsh ]] && source $HOME/.zsh/work.zsh
