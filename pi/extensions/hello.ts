@@ -57,8 +57,6 @@ export default function (pi: ExtensionAPI) {
     pi.sendMessage({
       customType: HELLO_MESSAGE_TYPE,
       content: [
-        `${ok()} ${label("kernel loaded")}`,
-        `${ok()} ${label("uplink established")}`,
         `${AMBER_FG}${BOLD}> ACCESS GRANTED${NORMAL}${NEON_GREEN_FG} ${label("::")} ${label("USER")} ${value(username.toUpperCase())}`,
         `> ${label("MACHINE ")} ${label("::")} ${value(hostname())}`,
         `> ${label("SYS_DATE")} ${label("::")} ${value(date)}`,
