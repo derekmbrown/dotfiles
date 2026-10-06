@@ -43,7 +43,10 @@ export default function (pi: ExtensionAPI) {
 
     pi.sendMessage({
       customType: HELLO_MESSAGE_TYPE,
-      content: `Hello, ${styledUsername}.`,
+      content: [
+        `> ACCESS GRANTED :: USER=${styledUsername}`,
+        `> SYS_TIME [${new Date().toLocaleTimeString("en-US", { hour12: true })}] // CONNECTED_`,
+      ].join("\n"),
       display: true,
     });
   });
