@@ -6,7 +6,8 @@
       "description": "Current time and timezone conversion"
     },
     "context-mode": {
-      "command": "context-mode"
+      "command": "sh",
+      "args": ["-c", "exec \"$HOME/.pi/agent/npm/node_modules/.bin/context-mode\""]
     }
   }
 }
