@@ -16,7 +16,8 @@
     "npm:@gotgenes/pi-anthropic-auth",
     "npm:pi-prompt-meter",
     "npm:context-mode",
-    "npm:claudemon"
+    "npm:claudemon",
+    "npm:pi-rtk-optimizer"
   ],
   "warnings": {
     "anthropicExtraUsage": false
