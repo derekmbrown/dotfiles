@@ -75,6 +75,7 @@ packages=(
   pi-coding-agent
   pipx
   pyenv
+  rtk
   sesh
   sevenzip
   speedtest-cli

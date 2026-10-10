@@ -1,14 +1,12 @@
 {
-  "lastChangelogVersion": "1.0.4",
+  "lastChangelogVersion": "1.1.0",
   "defaultProvider": "anthropic",
   "defaultModel": "claude-sonnet-5-5",
   "defaultThinkingLevel": "medium",
   "theme": "dracula",
   "packages": [
-    "npm:@tmustier/pi-usage-extension",
     "npm:pi-subagents-lite",
     "npm:pi-web-access",
-    "npm:pi-context-usage",
     "npm:pi-delete-session",
     "npm:@aliou/pi-guardrails",
     "git:https://github.com/hasit/pi-community-themes",
@@ -17,7 +15,8 @@
     "git:github.com/harms-haus/pi-worktrees",
     "npm:@gotgenes/pi-anthropic-auth",
     "npm:pi-prompt-meter",
-    "npm:context-mode"
+    "npm:context-mode",
+    "npm:claudemon"
   ],
   "warnings": {
     "anthropicExtraUsage": false
