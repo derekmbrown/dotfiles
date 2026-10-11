@@ -109,5 +109,6 @@
   "terminal.integrated.mouseWheelScrollSensitivity": 3,
   "explorer.confirmDelete": false,
   "extensions.ignoreRecommendations": true,
-  "chat.viewSessions.orientation": "stacked"
+  "chat.viewSessions.orientation": "stacked",
+  "docker.lsp.experimental.vulnerabilityScanning": false
 }

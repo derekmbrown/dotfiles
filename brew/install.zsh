@@ -42,6 +42,7 @@ packages=(
   awscli
   awslogs
   bat
+  cliproxyapi
   cloudflared
   colima
   libtiff
