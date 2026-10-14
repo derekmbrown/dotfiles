@@ -5,19 +5,13 @@
   "defaultThinkingLevel": "medium",
   "theme": "dracula",
   "packages": [
-    "npm:pi-subagents-lite",
     "npm:pi-web-access",
-    "npm:pi-delete-session",
     "npm:@aliou/pi-guardrails",
     "git:https://github.com/hasit/pi-community-themes",
-    "npm:@mohndoe/pi-atlas",
-    "npm:@plannotator/pi-extension",
     "git:github.com/harms-haus/pi-worktrees",
     "npm:@gotgenes/pi-anthropic-auth",
     "npm:pi-prompt-meter",
-    "npm:context-mode",
-    "npm:claudemon",
-    "npm:pi-rtk-optimizer"
+    "npm:claudemon"
   ],
   "warnings": {
     "anthropicExtraUsage": false
