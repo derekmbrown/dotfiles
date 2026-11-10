@@ -11,6 +11,7 @@ zsh-syntax-highlighting
 zsh-shift-select
 fzf
 macos
+tmux
 )
 
 source $ZSH/oh-my-zsh.sh
