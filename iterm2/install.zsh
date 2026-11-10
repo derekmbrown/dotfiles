@@ -13,4 +13,7 @@ for profile in "$DOTFILES_DIR"/DynamicProfiles/*.json(N); do
   echo "    linked ${profile:t}"
 done
 
-echo "  Done. Restart iTerm2 and pick the profile in Settings > Profiles."
+echo "  Setting Dotfiles as the default profile..."
+defaults write com.googlecode.iterm2 "Default Bookmark Guid" -string "6B1E2C7A-3D4F-4E8B-9A1C-0D5F7E2B9C41"
+
+echo "  Done. Restart iTerm2 to load the profile."
