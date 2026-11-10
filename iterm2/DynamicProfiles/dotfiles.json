@@ -1,0 +1,15 @@
+{
+  "Profiles": [
+    {
+      "Name": "Dotfiles",
+      "Guid": "6B1E2C7A-3D4F-4E8B-9A1C-0D5F7E2B9C41",
+      "Dynamic Profile Parent Name": "Default",
+      "Keyboard Map": {
+        "0x6b-0x100000": {
+          "Action": 11,
+          "Text": "0x0c"
+        }
+      }
+    }
+  ]
+}
