@@ -3,7 +3,7 @@
 #git
 alias gco='git checkout'
 alias gcb='git checkout -b'
-alias gs='git status'
+alias gst='git status'
 alias ga='git add'
 alias gc='git commit'
 alias gp='git push'
@@ -16,7 +16,7 @@ alias gwtrm='git worktree remove'
 
 #tmux
 alias ta='tmux attach -t'
-alias tl='tmux list-sessions'
+alias tls='tmux list-sessions'
 alias tad='tmux attach -t -d'
 alias tkss='tmux kill-session -t'
 alias tksv='tmux kill-server'
