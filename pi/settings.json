@@ -1,8 +1,4 @@
 {
-  "lastChangelogVersion": "1.1.0",
-  "defaultProvider": "anthropic",
-  "defaultModel": "claude-sonnet-5-5",
-  "defaultThinkingLevel": "medium",
   "theme": "dracula",
   "packages": [
     "npm:pi-web-access",
