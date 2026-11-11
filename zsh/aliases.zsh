@@ -46,3 +46,7 @@ alias dup="docker compose up -d --build"
 
 #macos
 alias ofd='open . -a Finder'
+
+#misc
+alias zsrc='source ~/.zshrc'
+alias tmsrc='tmux source-file ~/.tmux.conf'
