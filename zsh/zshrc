@@ -7,7 +7,6 @@ ZSH_THEME="robbyrussell"
 plugins=(z
 zsh-autosuggestions
 zsh-syntax-highlighting
-zsh-shift-select
 fzf
 macos
 )
