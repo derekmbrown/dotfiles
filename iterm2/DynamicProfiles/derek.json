@@ -60,8 +60,8 @@
           "Text": ""
         },
         "0x19-0x60000": {
-          "Action": 11,
-          "Text": "0x02 0x3b"
+          "Action": 2,
+          "Text": ""
         }
       },
       "Blinking Cursor": true
