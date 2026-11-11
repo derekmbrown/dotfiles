@@ -55,7 +55,8 @@
           "Action": 11,
           "Text": "0x02 0x1b 0x5b 0x44"
         }
-      }
+      },
+      "Blinking Cursor": true
     }
   ]
 }
