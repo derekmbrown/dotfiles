@@ -14,18 +14,19 @@ alias glo='git log --oneline --decorate'
 alias gwtls='git worktree list'
 alias gwta='git worktree add'
 alias gwtrm='git worktree remove'
+alias gbr='git branch -r'
 
 #tmux
-alias ta='tmux attach -t'
-alias tls='tmux list-sessions'
-alias tad='tmux attach -t -d'
-alias tkss='tmux kill-session -t'
-alias tksv='tmux kill-server'
-alias ts='tmux new-session -s'
-alias tw='tmux new-window'
-alias twn='tmux new-window -n'
-alias tsh='tmux split-window -h'
-alias tsv='tmux split-window -v'
+alias tma='tmux attach -t'
+alias tmls='tmux list-sessions'
+alias tmad='tmux attach -t -d'
+alias tmkss='tmux kill-session -t'
+alias tmksv='tmux kill-server'
+alias tms='tmux new-session -s'
+alias tmw='tmux new-window'
+alias tmwn='tmux new-window -n'
+alias tmsh='tmux split-window -h'
+alias tmsv='tmux split-window -v'
 
 #workmux
 alias wm='workmux'
@@ -33,6 +34,7 @@ alias wmi='workmux init'
 alias wmls='workmux list'
 alias wma='workmux add'
 alias wmrm='workmux remove'
+alias wmo='workmux open'
 
 #pi
 alias piu='pi update --all'
@@ -41,3 +43,6 @@ alias pic='pi -c'
 
 #docker
 alias dup="docker compose up -d --build"
+
+#macos
+alias ofd='open . -a Finder'
