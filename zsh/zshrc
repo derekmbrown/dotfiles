@@ -4,14 +4,12 @@ export ZSH_CACHE_DIR="${ZSH_CACHE_DIR:-$ZSH/cache}"
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git
-z
+plugins=(z
 zsh-autosuggestions
 zsh-syntax-highlighting
 zsh-shift-select
 fzf
 macos
-tmux
 )
 
 source $ZSH/oh-my-zsh.sh
