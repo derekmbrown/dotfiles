@@ -13,5 +13,6 @@
     "anthropicExtraUsage": false
   },
   "enableSkillCommands": true,
-  "tuiMode": "regular"
+  "tuiMode": "regular",
+  "showHardwareCursor": true
 }
