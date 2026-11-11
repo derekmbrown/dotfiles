@@ -1,0 +1,8 @@
+nerdfont: false
+agent: pi
+
+panes:
+  - command: clear
+  - command: <agent>
+    split: vertical
+    focus: true
