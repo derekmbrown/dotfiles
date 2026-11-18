@@ -39,6 +39,11 @@ export default function (pi: ExtensionAPI) {
   pi.on("session_start", (event, ctx) => {
     if (!ctx.hasUI || event.reason !== "startup") return;
 
+    const alreadyShown = ctx.sessionManager
+      .getBranch()
+      .some((entry) => entry.type === "custom_message" && entry.customType === "hello");
+    if (alreadyShown) return;
+
     const now = new Date();
     const date = now
       .toLocaleDateString("en-US", { weekday: "short", month: "short", day: "2-digit", year: "numeric" })
