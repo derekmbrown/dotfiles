@@ -1,18 +1,31 @@
 {
   "theme": "dracula",
+  "defaultProvider": "anthropic",
+  "defaultModel": "claude-haiku-5-5",
+  "defaultThinkingLevel": "low",
   "packages": [
     "npm:pi-web-access",
     "npm:@aliou/pi-guardrails",
     "git:https://github.com/hasit/pi-community-themes",
-    "git:github.com/harms-haus/pi-worktrees",
     "npm:@gotgenes/pi-anthropic-auth",
     "npm:pi-prompt-meter",
-    "npm:claudemon"
+    "npm:claudemon",
+    "npm:@duarteocarmo/pi-preview",
+    "npm:@duarteocarmo/pi-subagents"
   ],
   "warnings": {
     "anthropicExtraUsage": false
   },
   "enableSkillCommands": true,
-  "tuiMode": "regular",
-  "showHardwareCursor": true
+  "tuiMode": "fullScreen",
+  "showHardwareCursor": true,
+  "lastChangelogVersion": "1.5.2",
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.48.0",
+    "{\"source\":\"npm:@aliou/pi-guardrails\",\"scope\":\"user\"}": "0.24.0",
+    "{\"source\":\"npm:@gotgenes/pi-anthropic-auth\",\"scope\":\"user\"}": "3.6.0"
+  },
+  "terminal": {
+    "showTerminalProgress": true
+  }
 }
