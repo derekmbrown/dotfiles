@@ -25,4 +25,4 @@ link "$REPO_DIR/pi/skills" "$HOME/.pi/agent/skills"
 link "$REPO_DIR/pi/extensions" "$HOME/.pi/agent/extensions"
 link "$REPO_DIR/pi/settings.json" "$HOME/.pi/agent/settings.json"
 
-echo "Configs linked"
+echo "Configs linked."
